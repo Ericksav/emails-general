@@ -1,0 +1,108 @@
+/*
+  Style
+*/
+
+p,
+td,
+th,
+a{
+  color: #3a383a;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#bodyTable{
+  background: #f3f3f3;
+}
+
+.bodyCell{
+  padding: 50px 0;
+}
+
+.container{
+  width: 600px;
+  padding: 50px;
+  background-color: #fff;
+}
+
+/*.content{
+  background-color: #FFF;
+}
+
+.content > td{
+  color: #3a383a;
+  padding: 40px 30px;
+}*/
+
+.title{
+  text-align: center;
+  padding: 40px 20px 15px;
+}
+
+.title a{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text > td{
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+/****************************
+ Buttons
+*****************************/
+
+.button{
+  height: 52px;
+  padding-top: 28px;
+  padding-bottom: 36px;
+}
+
+.button a{
+  display: block;
+  color: #392c39;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid #392c39;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+/****************************
+ Footer
+*****************************/
+
+.footer-container{
+  background-color: #392c39;
+  padding: 10px;
+}
+.footer-links a{
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+/*
+  Mobile
+*/
+
+@media screen and (max-width:320px) {
+
+  .bodyCell{
+    padding: 0;
+  }
+  
+  .container{
+    width: 100%;
+  }
+
+  .title a{
+    font-size: 16px;
+  }
+
+}
+
+

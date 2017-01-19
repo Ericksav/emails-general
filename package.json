@@ -1,0 +1,19 @@
+{
+  "name": "gulp-inline-emails",
+  "version": "1.0.0",
+  "description": "Gulp with Gulp Inline CSS. Create email templates with inline css styles.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Julio Cesar Montenegro",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-email-builder": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "rimraf": "^2.5.4",
+    "run-sequence": "^1.2.2"
+  }
+}
