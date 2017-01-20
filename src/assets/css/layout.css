@@ -20,89 +20,104 @@ a{
 }
 
 .container{
-  width: 600px;
-  padding: 50px;
-  background-color: #fff;
+  width: 580px;
 }
 
-/*.content{
+.content{
   background-color: #FFF;
 }
 
 .content > td{
   color: #3a383a;
   padding: 40px 30px;
-}*/
-
-.title{
-  text-align: center;
-  padding: 40px 20px 15px;
 }
 
-.title a{
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.text > td{
-  padding: 0 20px;
-  font-size: 15px;
-}
-
-/****************************
- Buttons
-*****************************/
+/*
+  Button
+*/
 
 .button{
-  height: 52px;
-  padding-top: 28px;
-  padding-bottom: 36px;
-}
-
-.button a{
+  text-align: center;
+  line-height: 16px;
   display: block;
-  color: #392c39;
+  background-color: #e9e9e9;
   padding: 10px;
-  text-decoration: none;
-  border: 2px solid #392c39;
-  border-radius: 5px;
-  text-align: center;
+  margin-bottom: 12px;
+  width: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-bottom: 2px solid #e1e1e1;
+  -webkit-border-radius: 0.25em;
+          border-radius: 0.25em;
+  -webkit-text-size-adjust: none;
+}
+.button a{
+  color: #fff;
 }
 
+/*
+  Signature
+*/
 
-/****************************
- Footer
-*****************************/
-
-.footer-container{
-  background-color: #392c39;
-  padding: 10px;
+.signature{
+  background-color: #FFF;
 }
-.footer-links a{
-  color: #FFF;
-  text-align: center;
+
+.signature > td{
+  padding-bottom: 30px;
+}
+
+.logo{
+  width: 188px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #278992;
+}
+
+.info{
+  width: 392px;
+  padding-left: 30px;
+  vertical-align: middle;
+}
+
+.name{
+  font-size: 16px;
+  color: #278992;
+}
+
+.employment{
   font-size: 12px;
 }
 
+.brand{
+  font-size: 12px;
+  color: #6E9032;
+}
+
+.website{
+  font-size: 12px;
+  color: #278992;
+  text-decoration: none;
+  padding: 0;
+}
 
 /*
-  Mobile
+Footer
 */
 
-@media screen and (max-width:320px) {
-
-  .bodyCell{
-    padding: 0;
-  }
-  
-  .container{
-    width: 100%;
-  }
-
-  .title a{
-    font-size: 16px;
-  }
-
+.footer{
+  background-color: #b1b1b1;
 }
+
+.footer > td{
+  color: #fff;
+  font-size: 11pt;
+  padding: 12px 30px;
+  width: 100%;
+}
+
+
+
+
 
 
