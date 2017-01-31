@@ -1,0 +1,40 @@
+/*
+  Button
+*/
+
+.button{
+  background-color: #149fad;
+  border-bottom: 2px solid #0c818d;
+}
+
+/* 
+Content 
+*/
+.content h4{
+	text-align: center;
+}
+
+/*
+  Signature
+*/
+
+
+.logo{
+  border-right: 1px solid #333333;
+}
+
+.name{
+  color: #09a0ae;
+}
+
+.brand{
+  color: #b61e53;
+}
+
+/* 
+Footer 
+*/
+
+.footer{
+	background-color: #333333;
+}
