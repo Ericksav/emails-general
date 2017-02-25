@@ -1,0 +1,53 @@
+.patient-info td{
+	font-size:12px;
+	text-align:left;
+}
+
+/*.patient-info{
+	border-bottom: 1px solid #e1e1e1;
+}*/
+
+.procedures td{
+	font-size:12px;
+}
+
+.procedures p{
+	font-size:12px;
+}
+
+.procedures p{
+	margin:none;
+}
+
+.grand-total h2{
+	text-align: right;
+}
+
+/*.info-bottom td > img{
+	text-align:center;
+}*/
+
+/*Button*/
+.button{
+  background-color: #fd226f;
+  border-bottom: 2px solid #ba0554;
+}
+
+/*Footer*/
+.footer{
+	background-color: #7d3180;
+}
+
+/* Colors */
+.purple-text{
+	color:#7d3180;
+}
+.pink-text{
+	color:#fd226f;
+}
+.blue-text{
+	color:#2246a4;
+}
+.light-blue-text{
+	color:#32c0d1;
+}
